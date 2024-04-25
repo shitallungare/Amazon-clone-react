@@ -1,0 +1,171 @@
+
+.header {
+    background-color: #0F1111;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+    .head_tabs {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        padding: 2px 15px;
+        color: white;
+        justify-content: space-around;
+
+        .brand_logo {
+            display: flex;
+            align-items: center;
+
+            img {
+                padding: 15px 10px 0px 10px;
+                height: 35px;
+            }
+        }
+
+        .user_location {
+            display: flex;
+            align-items: center;
+            padding: 9px 10px;
+
+            i {
+                padding-bottom: 3px;
+                padding-right: 3px;
+                align-self: flex-end;
+            }
+
+            small {
+                font-weight: 500;
+                font-size: 0.8rem;
+                color: #d6d6d6;
+            }
+
+            p {
+                font-weight: 700;
+            }
+        }
+
+        .search_bar {
+            display: flex;
+            align-items: center;
+
+            select {
+                background-color: #e6e6e6;
+                color: #0F1111;
+                border-radius: 4px 0px 0px 4px;
+                width: 60px;
+                height: 39px;
+                text-align: center;
+
+                option {
+                    background-color: white;
+                }
+            }
+
+            input {
+                padding: 5px;
+                height: 39px;
+                width: 650px;
+            }
+
+            button {
+                border-radius: 0px 4px 4px 0px;
+                background-color: #febd69;
+                height: 39px;
+                width: 50px;
+            }
+        }
+
+        .prime_logo {
+
+            img {
+                height: 40px;
+            }
+        }
+
+        .user_signin {
+            display: flex;
+            align-items: center;
+            padding: 9px 10px;
+
+            i {
+                font-size: 0.7rem;
+                align-self: flex-end;
+                padding-left: 3px;
+            }
+
+            small {
+                font-size: 0.8rem;
+                font-weight: 520;
+            }
+
+            p {
+                font-weight: 700;
+            }
+        }
+
+        .user_orders {
+            display: flex;
+            align-items: center;
+            padding: 9px 10px;
+
+            small {
+                font-size: 0.8rem;
+                font-weight: 520;
+            }
+
+            p {
+                font-weight: 700;
+            }
+        }
+
+        .user_cart {
+            display: flex;
+            padding: 11px 10px;
+
+            i {
+                font-size: 2rem;
+            }
+
+            p {
+                align-self: flex-end;
+                font-weight: 700;
+            }
+        }
+    }
+}
+
+.search_bar:hover {
+    outline: 3.5px solid #ff9900;
+    border-radius: 4px;
+}
+
+.border:hover {
+    outline: 1.5px solid white;
+    cursor: pointer;
+}
+
+// Navbar CSS 
+.navbar {
+    display: flex;
+    background-color: #232f3e;
+    color: white;
+    width: 100%;
+    height: 39px;
+
+    .nav_tabs {
+        display: flex;
+        align-items: center;
+        padding: 2px 20px;
+
+        .tab_link {
+            color: white;
+            padding: 6px 10px;
+        }
+    }
+
+    .tab_link:hover {
+        outline: 1px solid white;
+    }
+}
